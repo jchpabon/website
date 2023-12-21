@@ -1,0 +1,8 @@
+.code-container {
+		max-height: 500px; /* Altura máxima de la ventana de código */
+		overflow-y: auto; /* Habilita la barra de desplazamiento vertical si es necesario */
+		border: 1px solid #ccc; /* Borde opcional para la ventana de código */
+		padding: 2px; /* Espacio interno opcional */
+		background-color: #000000; /* Color de fondo opcional */
+		text-align: left;
+		}

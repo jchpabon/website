@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Julio Hernandez-Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/mystyles2.css">
+		<link rel="stylesheet" href="assets/css/prism.css">
+		<script src="assets/css/prism.js"></script>
+		<link rel="icon" href="images/dataset.png" type="image/x-icon">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				 Note: The "styleN" class below should match that of the banner element.
+					<header id="header" class="alt style2">
+						<!--<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>-->
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+				
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="machine_learning.html">Machine Learning</a></li>
+							<li><a href="eda-kaggle.html">Exploratory Data Analysis</a></li>
+							<li><a href="powerbi.html">Power Bi</a></li>
+							<li><a href="scraping.html">Web Scraping</a></li>
+							<li><a href="automation.html">Automation</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="perfil.html" class="button primary fit">About me</a></li>
+							<li><a href="#contact" class="button fit">Contact</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Automation.</h1>
+							</header>
+							<div class="content">
+								<p> 
+                                    Automation refers to the use of technology and tools to perform tasks without
+									direct human intervention. Creates systems or processes that can operate automatically, 
+									reducing the need for manual effort or repitive tasks.
+									Power Automate creates automated workflows between different applications and services. 
+                                    Web Automation can provide workflows by connecting to different cloud-based applications and services.
+									Power Automate Desktop allows automate tasks on their local desktop environment.
+									<br /><br />
+									
+								</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+					</div>
+					</section>
+						
+						<!-- Sección de código -->
+						<section id="one">
+							<div class="inner">
+								<header class="major">
+									<h2><a target="_blank">Translator English to Spanish</a></h2>
+								</header> 
+                                <p> Power Automate Web workflow trigger manually that translate any English text to Spanish lenguage, with details such as author's 
+									name, article title, text for translation, and the link to the article.The next step involves a translation action, 
+									translation service to Spanish, ensuring a smooth transition between the two languages.Following the translation, 
+									the flow then proceeds to create a Word document. This document serves as the output and is designed to include both 
+									the original article details and the translated content in Spanish.
+                                    <pre class="language-python"> 
+<a ><img src="images/Translator.JPG" alt="Imagen 1" class="imagen" onclick="openImage(this)"></a>
+									</pre>
+							</div>
+							
+						</section>
+
+						<section id="two">
+							<div class="inner">
+								<header class="major">
+									<h2><a target="_blank">Word Documents generation from Excel Table</a></h2>
+								</header> 
+                                <p>This Power Automate Web workflow, trigerred by event, is designed to enhance document generation efficiency. Operating within the Microsoft 365 environment, 
+									the workflow utilizes a Word document template and an Excel spreadsheet. By extracting various data points from the Excel table, such 
+									as names, dates, or any relevant information, the workflow dynamically customizes the Word document template. This automation ensures 
+									a seamless and personalized document creation process, significantly reducing manual effort and improving overall productivity for the user.
+                                </p>
+                                    <pre class="language-python"> 
+<a ><img src="images/Word_from_Excel.png" alt="Imagen2" class="imagen" onclick="openImage(this)"></a>
+									</pre>
+							</div>
+						</section>
+                  
+
+						<section id="three">
+							<div class="inner">
+								<header class="major">
+									<h2><a target="_blank">Filling up Web Form from Excel Table Data</a></h2>
+								</header> 
+                                <p>The Power Automate Desktop workflow streamlines the data entry process by automating the completion of a web form. Leveraging 
+									information stored in an Excel table, the automation extracts data fields required by web form. The workflow then seamlessly 
+									navigates to the web form, populating each field with the corresponding data from the Excel table. This Power Automate Desktop 
+									solution enhances accuracy, minimizes manual data entry efforts, and ensures efficient submission of information into the targeted 
+									online form.
+                                </p>
+                                    <pre class="language-python"> 
+<a ><img src="images/filling up web form from excel file.JPG" alt="Imagen2" class="imagen" onclick="openImage(this)"></a>
+									</pre>
+							</div>
+
+							<script>
+								function openImage(imgElement) {
+									// Obtiene la ruta de la imagen desde el atributo src de la imagen clicada
+									var imagePath = imgElement.src;
+									
+									// Abre la imagen en una nueva pestaña
+									window.open(imagePath, "_blank");
+								}
+							</script>
+						
+						</section>
+						
+						<section id="four">
+							<div class="inner">
+								<header class="major">
+									<h2><a target="_blank">Web Scraping using Power Automate Desktop</a></h2>
+								</header> 
+                                <p>Workflow excels at web scraping, systematically extracting valuable data from a designated website and organizing it into an Excel file. 
+									Utilizing a sequence of automated actions, this solution navigates through the website's pages, captures specified information, and 
+									stores it systematically in an Excel spreadsheet. This Power Automate Desktop automation provides an efficient means of aggregating 
+									data from web sources, offering a streamlined process for data retrieval and organization without manual intervention.
+									The workflow's ability to automate the email dispatch of the Excel file further optimizes the data management process.
+                                </p>
+                                    <pre class="language-python"> 
+<a ><img src="images/Scraping website -Saving on Excel - Sending it as email.JPG" alt="Imagen2" class="imagen" onclick="openImage(this)"></a>
+									</pre>
+							</div>
+						</section>
+                  
+
+				<!-- Contact -->
+				<section id="contact">
+					<div class="inner">
+						
+						<section class="split">
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<span>jchpabon@gmail.com<br /></span>
+								</div>
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<span>346-317-7255</span>
+								</div>
+								<div class="contact-method">
+									<span class="icon solid alt fa-home"></span>
+									<span>Katy, TX 77494<br />
+									United States of America</span>
+								</div>	
+							</section>
+						</section>
+					</div>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://github.com/jchpabon?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/julio-hernandez-a3141a2a6" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Forty </li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
